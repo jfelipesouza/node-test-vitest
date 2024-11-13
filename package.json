@@ -1,0 +1,19 @@
+{
+  "name": "test_simple_api",
+  "version": "0.0.1",
+  "license": "ISC",
+  "author": {
+    "name": "João Souza"
+  },
+  "main": "index.ts",
+  "scripts": {
+    "start": "",
+    "dev": "node --watch index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "typescript": "^5.6.3"
+  }
+}
