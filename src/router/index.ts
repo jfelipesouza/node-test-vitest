@@ -1,13 +1,8 @@
-import { Router, Response, Request } from 'express'
+import { Router } from 'express'
+import { calculatorRouters } from './calc'
 
 const router = Router()
 
-router.get('/', (req: Request, res: Response) => {
-  const data = req.body
-  console.log(data)
-  return res.status(200).send({
-    message: 'Está funcionando'
-  })
-})
+router.use('/', calculatorRouters)
 
 export { router }
